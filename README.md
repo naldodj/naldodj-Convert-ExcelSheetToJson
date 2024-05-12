@@ -1,4 +1,4 @@
-# Convert-ExcelSheetToJson.ps1
+# Excel2JSON.ps1
 
 ## SYNOPSIS
 Converts an Excel sheet from a workbook to JSON
