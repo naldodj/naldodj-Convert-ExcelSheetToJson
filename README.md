@@ -107,7 +107,7 @@ Accept wildcard characters: False
 ## OUTPUTS
 
 ## NOTES
-Original Written by: [Chris Brown](https://github.com/chrisbrownie/Convert-ExcelSheetToJson)
+This code was based on the original written by: [Chris Brown](https://github.com/chrisbrownie/Convert-ExcelSheetToJson)
 
 Find me on:
 * My blog: https://blacktdn.com.br/
