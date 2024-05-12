@@ -6,7 +6,7 @@ Converts an Excel sheet from a workbook to JSON
 ## SYNTAX
 
 ```
-Convert-ExcelSheetToJson.ps1 [-InputFile] <Object> [[-OutputFileName] <String>] [[-SheetName] <String>]
+Excel2JSON.ps1 [-InputFile] <Object> [[-OutputFileName] <String>] [[-SheetName] <String>] [[-$HeaderRow] <Int>] [[-$DetailRow] <Int>]
 ```
 
 ## DESCRIPTION
@@ -16,12 +16,12 @@ To allow for parsing of Excel Workbooks suitably in PowerShell, this script conv
 
 ### -------------------------- EXAMPLE 1 --------------------------
 ```
-Convert-ExcelSheetToJson -InputFile MyExcelWorkbook.xlsx
+Excel2JSON.ps1 -InputFile MyExcelWorkbook.xlsx
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
 ```
-Get-Item MyExcelWorkbook.xlsx | Convert-ExcelSheetToJson -OutputFileName MyConvertedFile.json -SheetName Sheet2
+Get-Item MyExcelWorkbook.xlsx | Excel2JSON.ps1 -OutputFileName MyConvertedFile.json -SheetName Sheet2 -HeaderRow 2 -DetailRow 3
 ```
 
 ## PARAMETERS
@@ -72,19 +72,48 @@ Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
+### -HeaderRow
+Specifies the row number containing the header in the Excel Workbook.
+
+```yaml
+Type: Int
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: 3
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -DetailRow
+Specifies the row number containing the detail data in the Excel Workbook.
+
+```yaml
+Type: Int
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: 3
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
 
 ## INPUTS
 
 ## OUTPUTS
 
 ## NOTES
-Written by: Chris Brown
+Original Written by: [Chris Brown](https://github.com/chrisbrownie/Convert-ExcelSheetToJson)
 
 Find me on:
-* My blog: https://flamingkeys.com/
-* Github: https://github.com/chrisbrownie
+* My blog: https://blacktdn.com.br/
+* Github: https://github.com/naldodj
 
 ## RELATED LINKS
 
-[https://flamingkeys.com/convert-excel-sheet-json-powershell](https://flamingkeys.com/convert-excel-sheet-json-powershell)
+[]()
 
