@@ -110,8 +110,9 @@ Accept wildcard characters: False
 This code was based on the original written by: [Chris Brown](https://github.com/chrisbrownie/Convert-ExcelSheetToJson)
 
 Find me on:
-* My blog: https://blacktdn.com.br/
-* Github: https://github.com/naldodj
+* [My blog](https://blacktdn.com.br/)
+* [Github](https://github.com/naldodj)
+* [Linkedin](https://www.linkedin.com/in/marinaldo-de-jesus-66392346/)
 
 ## RELATED LINKS
 
